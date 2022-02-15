@@ -3,6 +3,7 @@ apply from: "../common.gradle"
 
 dependencies {
     implementation project(':model')
+    testImplementation "junit:junit:$junitVersion"
 
     annotationProcessor "androidx.annotation:annotation:$annotationVersion"
 }
