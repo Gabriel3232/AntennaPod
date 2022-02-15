@@ -60,6 +60,7 @@ jobs:
       matrix:
         include:
           - variant: "event"
+          - variant: "model"
     steps:
       - uses: actions/checkout@v2
       - name: Test
